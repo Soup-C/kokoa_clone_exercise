@@ -1,0 +1,31 @@
+.alt-header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  padding: 44px var(--space) 14px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 216, 77, 0.92), rgba(255, 216, 77, 0.75));
+  backdrop-filter: blur(6px);
+}
+
+.alt-header__col {
+  width: 33%;
+}
+
+.alt-header__col--center {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-header__col--right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.alt-header__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+}

@@ -1,0 +1,55 @@
+body {
+  font-family: "Nunito", system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  background: linear-gradient(180deg, #ffffff, #f5f6fb);
+  color: var(--ink);
+}
+
+.stage {
+  min-height: 100vh;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 18px;
+}
+
+@media (max-width: 760px) {
+  .stage {
+    flex-direction: column;
+  }
+}
+
+.phone {
+  width: var(--phone-w);
+  height: var(--phone-h);
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  position: relative;
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+}
+
+.icon-btn:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}

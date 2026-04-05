@@ -1,0 +1,15 @@
+:root {
+  --yellow: #ffd84d;
+  --yellow-soft: #fff2b3;
+  --ink: #2e363e;
+  --muted: rgba(46, 54, 62, 0.55);
+  --line: rgba(0, 0, 0, 0.08);
+
+  --radius: 34px;
+  --shadow: 0 20px 55px rgba(0, 0, 0, 0.12);
+
+  --phone-w: 320px;
+  --phone-h: 620px;
+
+  --space: 22px;
+}
