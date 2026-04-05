@@ -44,9 +44,9 @@
         <main class="login">
           <section class="login-hero" aria-label="Login hero">
             <div class="login-hero__photo" aria-hidden="true"></div>
-            <h1 class="login-hero__title">Welcome to SunnyTalk</h1>
+            <h1 class="login-hero__title">Welcome to Soup-C Chat</h1>
             <p class="login-hero__text">
-              A bright, simple messenger for quick chats.
+              Kokoa clone chat.
             </p>
           </section>
 
@@ -81,9 +81,6 @@
         </main>
       </section>
 
-      <!-- =========================
-           SCREEN 2: CHAT
-      ========================== -->
       <section class="phone phone--chat" aria-label="Chat screen">
         <!-- status bar -->
         <header class="status-bar status-bar--onchat" aria-label="Status bar">
@@ -96,11 +93,10 @@
           <div class="status-bar__col status-bar__col--right">
             <i class="fa-solid fa-signal"></i>
             <i class="fa-solid fa-battery-three-quarters"></i>
-            <span>73%</span>
+            <span>50%</span>
           </div>
         </header>
 
-        <!-- chat header (sticky 느낌) -->
         <header class="alt-header" aria-label="Chat header">
           <div class="alt-header__col">
             <button class="icon-btn" type="button" aria-label="Back">
@@ -109,7 +105,7 @@
           </div>
 
           <div class="alt-header__col alt-header__col--center">
-            <h2 class="alt-header__title">Sunny Group</h2>
+            <h2 class="alt-header__title">Soup-C 단톡</h2>
           </div>
 
           <div class="alt-header__col alt-header__col--right">
@@ -131,22 +127,21 @@
             <div class="message-row__avatar" aria-hidden="true"></div>
 
             <div class="message">
-              <span class="message__author">Mina</span>
+              <span class="message__author">미나</span>
               <div class="message__info">
                 <p class="message__bubble">
-                  Hey! Did you see the new yellow theme idea?
+                  이게 되네?
                 </p>
                 <span class="message__time">16:20</span>
               </div>
             </div>
           </section>
 
-          <!-- my message -->
           <section class="message-row message-row--own" aria-label="My message">
             <div class="message">
               <div class="message__info">
                 <p class="message__bubble">
-                  Yeah 🙂 I tried using photo backgrounds + warm yellow.
+                  그러게.
                 </p>
                 <span class="message__time">16:21</span>
               </div>
@@ -158,22 +153,21 @@
             <div class="message-row__avatar message-row__avatar--2" aria-hidden="true"></div>
 
             <div class="message">
-              <span class="message__author">Jay</span>
+              <span class="message__author">재형</span>
               <div class="message__info">
                 <p class="message__bubble">
-                  Nice! Make sure the input bar stays fixed at the bottom.
+                  이게 되냐?.
                 </p>
                 <span class="message__time">16:21</span>
               </div>
             </div>
           </section>
 
-          <!-- my message -->
           <section class="message-row message-row--own" aria-label="My message">
             <div class="message">
               <div class="message__info">
                 <p class="message__bubble">
-                  Done. Messages can scroll without moving the reply box!
+                  그러게!
                 </p>
                 <span class="message__time">16:22</span>
               </div>
@@ -183,16 +177,15 @@
           <section class="message-row" aria-label="Incoming message">
             <div class="message-row__avatar" aria-hidden="true"></div>
             <div class="message">
-              <span class="message__author">Mina</span>
+              <span class="message__author">미나</span>
               <div class="message__info">
-                <p class="message__bubble">Perfect. Looks like a real web messenger.</p>
+                <p class="message__bubble">쫌 치네.</p>
                 <span class="message__time">16:22</span>
               </div>
             </div>
           </section>
         </main>
 
-        <!-- reply box (independent / fixed inside phone) -->
         <footer class="reply" aria-label="Reply box">
           <div class="reply__col">
             <button class="icon-btn" type="button" aria-label="Add">
@@ -202,7 +195,7 @@
 
           <div class="reply__col reply__col--input">
             <label class="sr-only" for="msg">Message</label>
-            <input id="msg" type="text" placeholder="Write a message..." />
+            <input id="msg" type="text" placeholder="대화를 입력하시오..." />
 
             <i class="fa-regular fa-face-smile"></i>
             <button class="reply__send" type="button" aria-label="Send">
